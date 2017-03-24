@@ -1,0 +1,223 @@
+/*
+ Theme Name:  Hiero Child
+ Description:  Hiero Child Theme
+ Author:       Moncea Ilinca
+ Template:     hiero
+ Text Domain:  hiero-child
+*/
+.site-header-blog{
+    background-color: black;
+}
+.text-header{
+    color: white;
+    text-align: center;
+}
+#main-navigation-blog li a {
+    margin: 0 -2px 0 0;
+    padding: 0 20px;
+
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    float: right;
+}
+
+.sf-menu-b ul  {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    float: right;
+    display: inline-flex;
+
+}
+
+#main-navigation-blog li li a {
+    color: #ffabab;
+}
+#main-navigation-blog li a:hover,
+#main-navigation-blog li.sfHover > a
+{
+    color: #34a849;
+
+}
+
+#main-navigation-blog li.current-menu-item a {
+    color : #34a849;
+
+}
+#main-navigation-blog li.current-menu-item a { 
+    border-bottom: 1px solid #34a849;
+}
+
+#main-navigation-blog a {
+    color:grey;
+
+    outline: none;
+    -webkit-transition: all 0.14s ease 0s;
+    -moz-transition: all 0.14s ease 0s;
+    -o-transition: all 0.14s ease 0s;
+}
+.social .icon-2x {
+    font-size: 1em;
+}
+.full {
+    width: 100%;	
+}
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.footer {
+    background: #EDEFF1;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+
+}
+.footer p {
+    margin: 0;
+}
+.footer img {
+    max-width: 100%;
+}
+
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+.footer a {
+    color: #78828D
+}
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.social-footer{
+    text-align: center;
+
+}
+
+.social-footer li {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    list-style: none;
+    margin-right:  10px;
+    margin-left: 10px;
+}
+.social-footer li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+.social-footer li a {
+
+    color: #EDEFF1;
+}
+.social-footer li:hover {
+
+}
+.social-footer li a i {
+    font-size: 36px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+
+}
+.footer-bottom {
+    background: #353232;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+.payments {
+    font-size: 1.5em;	
+}
+.float-div1{
+    float: left;
+}
+.float-div2{
+    float:right;
+}
+
+.footer-color{
+    background-color: #34a849;
+}
+.row-footer{
+    margin-left: 0px;
+}
+.input-height{
+    height: 41px !important;
+    width: 288px!important;
+    background: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+.btn-style{
+    background-color: green;
+    border: none;
+    width: 111px;
+    margin-bottom: 10px;
+    height: 39px;
+    margin-left: 29px;
+}
+.h3-footer{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+}
+.text-footer{
+    color: white;
+}
+.copyright-footer{
+    color: white;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: -19px;
+}
+.footer-height-social{
+    height: 33px;
+}
+.footer-bottom-links{
+    background: red;
+}
+.menu-footer ul{
+    margin-right: 153px;
+}
+.site-footer-style{
+    padding: 15px 0;
+    font-size: .9em;
+    background: #dbdce1;
+}
