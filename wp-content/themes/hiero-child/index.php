@@ -11,7 +11,9 @@
  * @package aThemes
  */
 
-get_header('blog'); ?>
+get_header('blog'); 
+global $count;
+?>
 
 			<div id="primary" class="content-area">
 				<div id="content" class="site-content" role="main">
@@ -26,6 +28,7 @@ get_header('blog'); ?>
 							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							 */
 							get_template_part( 'content-blog', get_post_format() );
+                                                         $count++;//add 1 to our counter every time we loop through a post
 						?>
 
 					<?php endwhile; ?>
