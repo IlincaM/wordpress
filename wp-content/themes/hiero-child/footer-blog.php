@@ -7,20 +7,17 @@
  * @package aThemes
  */
 ?>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 </div>
 <!-- #main --></div>
-
 <?php
-/* A sidebar in the footer? Yep. You can can customize
- * your footer with up to four columns of widgets.
- */
 get_sidebar('footer');
 ?>
 <footer>
     <div class="footer footer-color" id="footer">
         <div class="container">
             <div class="row row-footer">
-
                 <div class="col-6">
                     <h3 class="h3-footer"> About Diet Bite</h3>
                     <p class="text-footer"> Lorem ipsum dolor sit amet, blandit tincidunt laoreet lacus. Lacus accumsan, arcu eu dictum dui. Et placerat, posuere est enim nibh, netus mauris pede metus turpis mauris. Veritatis laoreet. Penatibus</p>
@@ -37,11 +34,10 @@ get_sidebar('footer');
                     </ul>
 
                 </div>
-
             </div>
             <!--/.row--> 
             <div class="copyright-footer">
-                <p>Copyright &copy; DietBite.com.All rights reserved. </p>
+                <p>Copyright &copy; 2016 DietBite.com.All rights reserved. </p>
             </div>
         </div>
         <!--/.container--> 
@@ -69,11 +65,8 @@ get_sidebar('footer');
                 'after' => '</span>', 'theme_location' => 'footer-menu'));
             ?>
         </nav>
-
     </div>
     <!-- #colophon --></footer>
-
 <?php wp_footer(); ?>
-
 </body>
 </html>

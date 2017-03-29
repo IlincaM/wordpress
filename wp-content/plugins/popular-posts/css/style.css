@@ -7,39 +7,41 @@ and open the template in the editor.
     Created on : Mar 23, 2017, 3:21:24 PM
     Author     : ilinca
 */
-
+.img-size-all{
+    height: 126px;
+    width: 178px;
+}
+.image-size-2 {
+    height: 167px ;
+    width: 300px;
+}
+.entry-summary-my-style{
+    float: right;
+    height: 0;
+    right: 2%;
+    top: -118px;
+    width: 111px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.post-number-0{
+    height: 247px; 
+}
 .entry-thumbnail-my-style{
-        float: left;
-        width: 116px;
-        margin: 0 12px 2px 0;
-        border: none;
-    }
-    .entry-summary-my-style {
-    margin: 0 0 20px 0px;
-     font-weight: bold;
+    width: 178px;
 }
-.widget-popular li{
-    height: 98px;
-    border: none;
-    border-bottom: 1px solid transparent !important;
+.entry-thumbnail-1{
+    width: 300px;
 }
-.widget-popular li.post-number-0 {
-    height: 196px;
-    margin-bottom: 7px;
-   
+.entry-summary-2{
+    float: left;
+    top:1px;
+    left: 0px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
- .entry-thumbnail-my-style.entry-thumbnail-1{
-        float: left;
-        width: 247px;
-        margin: 0 12px 2px 0;
-        border: none;
-        position: absolute;
-    }
-    .content-post-3{
-        margin-top: 168px;
-        font-weight: bold;
-    }
-   .widget-title span {
+.widget-title span {
     margin: 0 0 -1px;
     display: inline-block;
     line-height: 40px;
@@ -52,4 +54,12 @@ and open the template in the editor.
     text-transform: uppercase;
     letter-spacing: 2px;
     border-bottom: none !important;
+}
+.widget-popular li{
+    border: none;
+    border-bottom: 1px solid transparent !important;
+
+}
+.widget-popular li a:hover {
+    color: #03d29a !important;
 }

@@ -3,9 +3,7 @@
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
 function my_theme_enqueue_styles() {
-
     $parent_style = 'parent-style'; // This is 'hiero-style' for the Hiero theme.
-
     wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css');
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array($parent_style), wp_get_theme()->get('Version')
     );
@@ -26,16 +24,11 @@ function enqueue_our_required_stylesheets() {
 add_action('wp_enqueue_scripts', 'enqueue_our_required_stylesheets');
 
 function outputcategories() {
-
     $categories = get_categories();
     foreach ($categories as $category) {
         echo "<ul>"
         . "<li><a href='"
         . get_category_link($category->cat_ID)
         . "'>$category->name</a></li></ul>";
-//var_dump('<pre>',$category->name);
     }
 }
-
-?>
-       
