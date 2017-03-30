@@ -14,15 +14,15 @@
 <?php
 get_sidebar('footer');
 ?>
-<footer>
+<footer class="container-fluid no-padding-style">
     <div class="footer footer-color" id="footer">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row row-footer">
-                <div class="col-6">
+                <div class="col-md-6">
                     <h3 class="h3-footer"> About Diet Bite</h3>
                     <p class="text-footer"> Lorem ipsum dolor sit amet, blandit tincidunt laoreet lacus. Lacus accumsan, arcu eu dictum dui. Et placerat, posuere est enim nibh, netus mauris pede metus turpis mauris. Veritatis laoreet. Penatibus</p>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <h3 class="h3-footer"> Take your dose of diet biting </h3>
                     <ul>
                         <li>
@@ -43,7 +43,7 @@ get_sidebar('footer');
         <!--/.container--> 
     </div>
     <!--/.footer-->
-    <div class="footer-bottom">
+    <div class="footer-bottom container-fluid">
         <div class="footer-height-social">
             <ul class="social-footer">
                 <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
@@ -56,8 +56,8 @@ get_sidebar('footer');
     </div>
 
 </footer>
-<footer id="colophon" class="site-footer-style" role="contentinfo">
-    <div class="clearfix container">
+<footer id="colophon" class="site-footer-style container-fluid" role="contentinfo">
+    <div class="clearfix containe-fluid">
         <nav id="main-navigation-blog" class="main-navigation-blog" role="navigation">
 
             <?php

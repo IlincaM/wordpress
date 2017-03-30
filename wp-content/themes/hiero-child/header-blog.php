@@ -42,7 +42,7 @@
             <div class="site-header-blog">
                 <p class="text-header">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
             </div>
-            <div class="clearfix container">
+            <div class="clearfix container-fluid padding-style">
                 <div class="site-branding site-branding-position">
                     <?php if (get_theme_mod('site_logo')) : ?>
                         <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
@@ -72,5 +72,5 @@
                 <!-- .site-branding --></div>
             <!-- #masthead --></header>
         <div id="main" class="site-main">
-            <div class="clearfix container">
+            <div class="clearfix container-fluid padding-style">
                 
