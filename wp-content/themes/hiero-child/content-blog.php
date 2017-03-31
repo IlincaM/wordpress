@@ -10,7 +10,7 @@ global $count;
     <div class="row">
         <article id="post-<?php the_ID(); ?>"<?php post_class('article-' . $count) ?>>
 
-            <div class="col-xs-6 col-style">
+            <div class="col-style">
 
                 <?php if (has_post_thumbnail()) : ?>
                     <div class="entry-thumbnail">
@@ -20,7 +20,7 @@ global $count;
                     </div>
                 <?php endif; ?>
             </div>
-            <div class="col-xs-6 content-style">
+            <div class=" content-style">
                 <?php if (!post_password_required() && ( comments_open() || '0' != get_comments_number() )) : ?>
                     <span class="comments-link"> <?php comments_popup_link(__('0', 'athemes'), __('1', 'athemes'), __('%', 'athemes')); ?></span>
                 <?php endif; ?>
