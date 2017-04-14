@@ -9,6 +9,14 @@
 ?>
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </div>
 <!-- #main --></div>
 <?php
@@ -16,14 +24,14 @@ get_sidebar('footer');
 ?>
 <footer class="container-fluid no-padding-style">
     <div class="footer footer-color" id="footer">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-footer">
-                <div class="col-md-6">
-                    <h3 class="h3-footer"> About Diet Bite</h3>
-                    <p class="text-footer"> Lorem ipsum dolor sit amet, blandit tincidunt laoreet lacus. Lacus accumsan, arcu eu dictum dui. Et placerat, posuere est enim nibh, netus mauris pede metus turpis mauris. Veritatis laoreet. Penatibus</p>
+                <div class="offset-md-3 col-md-6">
+                    <h3 class="h3-footer right-h3-footer"> About Diet Bite</h3>
+                    <p class="text-footer text-footer-position" align="right"> Lorem ipsum dolor sit amet, blandit tincidunt laoreet lacus. Lacus accumsan, arcu eu dictum dui. Et placerat, posuere est enim nibh, netus mauris pede metus turpis mauris. Veritatis laoreet. Penatibus</p>
                 </div>
-                <div class="col-md-6">
-                    <h3 class="h3-footer"> Take your dose of diet biting </h3>
+                <div class="offset-md-3 col-md-6">
+                    <h3 class="h3-footer left-h3-footer"> Take your dose of diet biting </h3>
                     <ul>
                         <li>
                             <div class="">

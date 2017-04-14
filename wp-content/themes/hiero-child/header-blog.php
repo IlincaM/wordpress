@@ -62,10 +62,10 @@
 
                 <?php if (!dynamic_sidebar('sidebar-2')) : ?>
                 <?php endif; ?>
- <?php wp_nav_menu(array('container_class' => ' sf-menu sf-menu-b blog social', 'theme_location' => 'header-menu-social'));
-                    ?> 
+                <?php wp_nav_menu(array('container_class' => ' sf-menu sf-menu-b blog social', 'theme_location' => 'header-menu-social'));
+                ?> 
                 <nav id="main-navigation" class="main-navigation" role="navigation">
-                   
+
                     <a href="#main-navigation" class="nav-open">Menu</a>
                     <a href="#" class="nav-close">Close</a>
                     <?php
@@ -77,4 +77,6 @@
             <!-- #masthead --></header>
 
         <div id="main" class="site-main">
+
             <div class=" container">
+            <?php wpsites_list_cats($content); ?>
