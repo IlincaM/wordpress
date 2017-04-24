@@ -282,8 +282,8 @@ function smooth_slider_get_default($slider_handle, $r_array, $slider_id = '', $e
             $html .= '<div id="' . $slider_handle . '_nav" class="smooth_nav">' . $smooth_slider['custom_nav'] . '</div>';
         }
         if ($smooth_slider['prev_next'] == 1) {
-            $html .= '<div id="' . $slider_handle . '_next" class="smooth_next">></div>
-			<div id="' . $slider_handle . '_prev" class="smooth_prev"><</div>';
+            $html .= '<div id="' . $slider_handle . '_next" class="smooth_next"></div>
+			<div id="' . $slider_handle . '_prev" class="smooth_prev"></div>';
         }
 
         $html .= '<div class="sldr_clearlt"></div><div class="sldr_clearrt"></div>

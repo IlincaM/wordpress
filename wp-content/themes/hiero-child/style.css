@@ -666,12 +666,6 @@ body.landing-body{
 
 }
 
-
-
-
-
-
-
 /*Media Queries*/
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -740,6 +734,9 @@ and (orientation: portrait) {
     }
     .search-submit-style {
         top: -29px;
+    }
+    .site-branding-landing{
+        width: 70px;
     }
 }
 .search-field-style{
@@ -836,6 +833,9 @@ and (orientation: landscape) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -892,6 +892,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .text-footer-position {
         text-align: left;
         float: none;
+    }
+    .site-branding-landing{
+        width: 70px;
     }
 }
 
@@ -1005,6 +1008,9 @@ and (orientation: landscape) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -1062,6 +1068,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
 /* Portrait */
@@ -1118,6 +1127,9 @@ and (orientation: portrait) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
 /* Landscape */
@@ -1173,6 +1185,9 @@ and (orientation: landscape) {
     .text-footer-position {
         text-align: left;
         float: none;
+    }
+    .site-branding-landing{
+        width: 70px;
     }
 }
 
@@ -1228,6 +1243,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
 /* Portrait */
@@ -1287,6 +1305,9 @@ and (orientation: portrait) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
 /* Landscape */
@@ -1342,6 +1363,9 @@ and (orientation: landscape) {
     .text-footer-position {
         text-align: left;
         float: none;
+    }
+    .site-branding-landing{
+        width: 70px;
     }
 }
 
@@ -1431,6 +1455,9 @@ and (max-width: 60em){
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 /*Ipad pro*/
 @media only screen 
@@ -1453,6 +1480,9 @@ and (max-device-width : 1366px) {
     .text-footer-position {
         text-align: left;
         float: none;
+    }
+    .site-branding-landing{
+        width: 70px;
     }
 }
 /*Ipad*/
@@ -1482,6 +1512,9 @@ and (max-device-width : 1366px) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 @media only screen and (device-width: 384px) {
     .article-0 .entry-thumbnail {
@@ -1507,6 +1540,9 @@ and (max-device-width : 1366px) {
     .text-footer-position {
         text-align: left;
         float: none;
+    }
+    .site-branding-landing{
+        width: 70px;
     }
 }
 /*Blackberry*/
@@ -1535,38 +1571,11 @@ and (max-device-width : 1366px) {
         text-align: left;
         float: none;
     }
+    .site-branding-landing{
+        width: 70px;
+    }
 }
 
-/*Slider*/
-
-/*.smooth_slider{
-    max-width:450px;height:250px;min-height:250px;background-color:transparent !important;border:0px solid #dddddd;
+.site-branding-landing{
+    position: absolute !important;
 }
-.smooth_slider .sldr_title{
-    font-family:Tahoma,Geneva,sans-serif, Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;font-style:normal;color:#81d742;
-}
-.smooth_slider .smooth_slideri{
-    max-width:450px;margin:0px 0px 0px 0px;
-}
-.smooth_slider .smooth_slider_thumbnail{
-    float:left;margin:0 10px 0 0px;max-height:120px;border:1px solid #000000;width:165px;
-}
-.smooth_slider .smooth_slideri h2{
-    clear:none;line-height:17px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;font-style:normal;color:#000000;margin:0 0 5px 0;
-}
-.smooth_slider .smooth_slideri h2 a{
-    color:#000000;font-size:14px;font-weight:bold;font-style:normal;
-}
-.smooth_slider .smooth_slideri span{
-    font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#333333;
-}
-.smooth_slider .smooth_slideri p.more{
-    color:#0092E4;font-family:Arial,Helvetica,sans-serif;font-size:12px;margin-left: 10px;
-}
-.smooth_slider .smooth_next{}
-.smooth_slider .smooth_prev{} .smooth_slider .smooth_slider_eshortcode{
-    float:left;margin:0 10px 0 0px;height:120px;border:1px solid #000000;width:165px;
- .smooth_slider .smooth_more a{
-     color:#0092E4;font-family:Arial,Helvetica,sans-serif;font-size:12px;margin-left: 10px;
- }
-}*/

@@ -46,10 +46,10 @@
         <div class="line">
             <header id="masthead" class="site-header side-header-transparent" role="banner">
                 <div class=" container">
-                    <div class="site-branding">
+                    <div class="site-branding site-branding-landing">
                         <div id="header-image">
                             <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-white.png" alt="Logo" width="HERE" height="HERE" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-white.png" alt="Logo" width="213px" />
                             </a>
                         </div>
                      

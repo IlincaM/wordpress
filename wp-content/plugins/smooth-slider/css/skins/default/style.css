@@ -1,13 +1,13 @@
 @charset "utf-8";
 /*CSS Document 
 Smooth Slider default styles*/
-.smooth_slider{float: right;}
+.smooth_slider{float: right; min-height: 500px;}
 .smooth_slider div,.smooth_slider p,.smooth_slider span,.smooth_slider img,.smooth_slider h2{list-style:none;vertical-align:baseline;}
 .smooth_slider ul{list-style:disc;vertical-align:baseline;list-style-position:inside;}
 .smooth_slider li{vertical-align:baseline;}
 .smooth_slider{padding:0 5px;width:100%;box-sizing: border-box;}
 .smooth_slider .sldr_title{margin:5px 0 10px 0;}
-.smooth_slider span{display:inline;overflow:hidden;margin: 10px auto;line-height:18px;}
+.smooth_slider span{display:inline;overflow:hidden;margin: 10px auto;line-height:18px; font-family: "Montserrat",sans-serif !important; }
 .smooth_slider .smooth_sliderb{position:relative;top:25%;}
 .smooth_slider .smooth_slideri{position:absolute;width:100% !important;height:auto !important;}
 .smooth_slider .smooth_slider_thumbnail{position:relative;max-width:100%;}
@@ -28,8 +28,8 @@ Smooth Slider default styles*/
 
 /*Navigation */
 /* Next and Previous navigational arrows */
-.smooth_slider .smooth_next {position: absolute;right: 0px;top:0; width: 24px; height: 24px;left: 20%; cursor: pointer; color: red; }
-.smooth_slider .smooth_prev { position: absolute;left: 0px;top:0; width: 24px; height: 24px; cursor: pointer;color: red;}
+.smooth_slider .smooth_next {position: absolute;right: 0px;top:45%; width: 24px; height: 24px; cursor: pointer; background: transparent url(buttons/default/next.png) no-repeat 0 0;z-index:10;}
+.smooth_slider .smooth_prev { position: absolute;left: 0px;top:45%; width: 24px; height: 24px; cursor: pointer; background: transparent url(buttons/default/prev.png) no-repeat 0 0;z-index:10;}
 
 /*Navigation numbers*/
 .smooth_slider .smooth_nav { position:absolute;top:0px;text-align:center;margin: 10px auto;}
@@ -52,9 +52,7 @@ Smooth Slider default styles*/
 .button-read{
     display: block;
     width: 115px;
-    height: 35px;
     background: #4E9CAF;
-    padding: 10px;
     text-align: center;
     border-radius: 5px;
     color: white;
@@ -66,9 +64,10 @@ Smooth Slider default styles*/
     text-transform: uppercase;
     font-family: "Montserrat",sans-serif;
     font-weight: bold;
-height: 58px;
-    padding-top: 21px;
+    height: 19%;
     width: 190px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background: #01CF90; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#01CF90, #01C77C); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#01CF90, #01C77C); /* For Opera 11.1 to 12.0 */
@@ -80,7 +79,6 @@ height: 58px;
     width: 115px;
     height: 35px;
     background: #4E9CAF;
-    padding: 10px;
     text-align: center;
     border-radius: 5px;
     color: white;
@@ -92,8 +90,9 @@ height: 58px;
     text-transform: uppercase;
     font-family: "Montserrat",sans-serif;
     font-weight: bold;
-height: 58px;
-    padding-top: 21px;
+    height: 19%;
+    padding-top: 16px;
+    padding-bottom: 16px;
     width: 190px;
     background: #01CF90; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#01C77C, #01CF90); /* For Safari 5.1 to 6.0 */
@@ -103,7 +102,8 @@ height: 58px;
 }
 a.button-read {
     color: white;
+
 }
 .div-button{
-    margin-top: 42px;
+    margin-top: 24px;
 }
