@@ -118,3 +118,6 @@ function load_jquery() {
     }
 }
 add_action('init', 'load_jquery');
+  if( !defined(THEME_IMG_PATH)){
+   define( 'THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images' );
+  }

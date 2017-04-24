@@ -69,7 +69,7 @@
                     <a href="#main-navigation" class="nav-open">Menu</a>
                     <a href="#" class="nav-close">Close</a>
                     <?php
-                    wp_nav_menu(array('container_class' => ' sf-menu nav-style', 'theme_location' => 'header-menu-blog'));
+//                    wp_nav_menu(array('container_class' => ' sf-menu nav-style', 'theme_location' => 'header-menu-blog'));
                     ?>
 
                     <!-- #main-navigation --></nav>

@@ -10,5 +10,5 @@
 		<input type="search" class="search-field search-field-style" placeholder="<?php echo esc_attr_x( 'Search by keyword', 'placeholder', 'athemes' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="<?php _ex( 'Search for:', 'label', 'athemes' ); ?>">
 	
         </label>
-	<input type="submit" class="search-submit search-submit-style" value="<?php echo esc_attr_x( '&#128270;', 'submit button', 'athemes' ); ?>">
+     <input type="image" class="search-submit search-submit-style" src="<?php echo THEME_IMG_PATH; ?>/search.png"  alt="Submit">
 </form>
